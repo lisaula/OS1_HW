@@ -1,0 +1,1 @@
+sudo make mrproper;sudo make menuconfig;sudo make bzImage;sudo make modules;sudo make modules_install;sudo make install
