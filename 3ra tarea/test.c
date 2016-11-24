@@ -34,8 +34,10 @@ int parse(char *line, char **argU)
 int main(int argc, char* argv[])
 {
 	int size;
-	//printf("Size del array: ");
-	//scanf("%d", &size);
+	printf("Size del array: ");
+	char size_ptr[10];
+	fgets(size_ptr, 10,stdin);
+	printf("size: %d\n",atoi(size_ptr));
 
 	char line[1024];
 	printf("Nums: ");

@@ -1,0 +1,49 @@
+# depslib dependency file v1.0
+1479970562 source:/media/isaula/documentos/4to Perido 2016/SISO1/tareas/5ta tarea/Semaphores/main.cpp
+	<iostream>
+	"ProducerConsumer.h"
+	"RW.h"
+	"Philosophers.h"
+
+1479976851 source:/media/isaula/documentos/4to Perido 2016/SISO1/tareas/5ta tarea/Semaphores/ProducerConsumer.cpp
+	"ProducerConsumer.h"
+
+1479941681 /media/isaula/documentos/4to Perido 2016/SISO1/tareas/5ta tarea/Semaphores/ProducerConsumer.h
+	"Semaphore.h"
+	<thread>
+	<unistd.h>
+
+1479976813 source:/media/isaula/documentos/4to Perido 2016/SISO1/tareas/5ta tarea/Semaphores/Semaphore.cpp
+	"Semaphore.h"
+
+1479976531 /media/isaula/documentos/4to Perido 2016/SISO1/tareas/5ta tarea/Semaphores/Semaphore.h
+	"Tools.h"
+
+1479976423 /media/isaula/documentos/4to Perido 2016/SISO1/tareas/5ta tarea/Semaphores/Tools.h
+	<stdio.h>
+	<stdlib.h>
+	<pthread.h>
+	<semaphore.h>
+	<iostream>
+
+1479976493 source:/media/isaula/documentos/4to Perido 2016/SISO1/tareas/5ta tarea/Semaphores/Tools.cpp
+	"Tools.h"
+
+1479945370 source:/media/isaula/documentos/4to Perido 2016/SISO1/tareas/5ta tarea/Semaphores/RW.cpp
+	"RW.h"
+	<stdio.h>
+	<string.h>
+
+1479942893 /media/isaula/documentos/4to Perido 2016/SISO1/tareas/5ta tarea/Semaphores/RW.h
+	"Semaphore.h"
+	<thread>
+	<unistd.h>
+
+1479973945 source:/media/isaula/documentos/4to Perido 2016/SISO1/tareas/5ta tarea/Semaphores/Philosophers.cpp
+	"Philosophers.h"
+
+1479967988 /media/isaula/documentos/4to Perido 2016/SISO1/tareas/5ta tarea/Semaphores/Philosophers.h
+	"Semaphore.h"
+	<thread>
+	<unistd.h>
+

@@ -11,11 +11,8 @@ int main(void){
 	int b;
 	bool finish=false, input=false;
 	do{
-		while(!input){
-			printf("Input a: ");
-			if(getInput(&a))
-				input=true;
-		}
+		printf("Input a: ");
+		getInput(&a);
 		printf("Input b: ");
 		getInput(&b);
 		int result = suma(a, b);
@@ -29,7 +26,7 @@ int main(void){
 }
 
 bool getInput(int * ptr){
-	freeBuffer();
+	//freeBuffer();
 	int temp;
 	if (scanf("%d", &temp) != 1) {
         printf("Error: Not an integer.\n");
