@@ -37,17 +37,17 @@ void Philosophers::eat(Philosophers *parent, int index){
         fflush(stdout);
 
             if(plate_porcentage>0){
+                sleep(5);
                 plate_porcentage -=10;
                 printf("Philosopher #%d has eaten, his plate porcentage is %d\n",index,plate_porcentage);
                 fflush(stdout);
-                sleep(5);
             }
         chups_sticks[index]->signal();
         chups_sticks[(index+1)%amount_of_philosohers]->signal();
         //parent->next_taken = (parent->next_taken+1)%amount_of_philosohers;
         printf("Philosopher #%d is thinking\n",index);
         fflush(stdout);
-        sleep(7);
+        //sleep(7);
     }while(plate_porcentage>0);
     printf("Philosopher #%d has finised, his plate porcentage is %d\n",index, plate_porcentage);
     fflush(stdout);

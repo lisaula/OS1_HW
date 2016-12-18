@@ -7,8 +7,8 @@
 
 #define BUFF_SIZE   5           /* total number of slots */
 #define NP          1           /* total number of producers */
-#define NC          3           /* total number of consumers */
-#define NITERS      4           /* number of items produced/consumed */
+#define NC          8           /* total number of consumers */
+#define NITERS      40           /* number of items produced/consumed */
 
 
 class ProducerConsumer

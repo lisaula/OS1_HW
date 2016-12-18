@@ -1,0 +1,5 @@
+﻿  SimpleCPP.cpp
+c:\users\luis_\documents\visual studio 2015\projects\simpledll\simpledll\simplecpp.cpp(4): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+     Creating library c:\users\luis_\documents\visual studio 2015\Projects\SimpleDLL\Debug\SimpleDLL.lib and object c:\users\luis_\documents\visual studio 2015\Projects\SimpleDLL\Debug\SimpleDLL.exp
+  SimpleDLL.vcxproj -> c:\users\luis_\documents\visual studio 2015\Projects\SimpleDLL\Debug\SimpleDLL.dll
+  SimpleDLL.vcxproj -> c:\users\luis_\documents\visual studio 2015\Projects\SimpleDLL\Debug\SimpleDLL.pdb (Full PDB)

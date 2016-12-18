@@ -1,0 +1,3 @@
+gcc -L"/media/isaula/documentos/4to Perido 2016/SISO1/tareas/6ta
+ tarea" -Wl,-rpath="/media/isaula/documentos/4to Perido 2016/SISO1/tareas/6ta tarea" -Wall -o test main.c -lDLL
+
